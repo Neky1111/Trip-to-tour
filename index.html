@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Planner | Explore Your Next Adventure</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>TripPlanner</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h2>Plan Your Perfect Trip</h2>
+      <p>Discover amazing destinations, create personalized itineraries, and explore the world your way — all in one place.</p>
+      
+      <!-- Destination Search Bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search destinations (e.g., Paris, Tokyo, Cape Town)" id="destination-input">
+        <button id="search-btn">Search</button>
+      </div>
+
+      <button id="plan-btn">Start Planning</button>
+    </div>
+
+    <div class="hero-illustration">
+      <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Travel Illustration" />
+    </div>
+  </section>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section class="features section" id="features">
+    <h3>Why Choose TripPlanner?</h3>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3063/3063828.png" alt="Easy Planning" />
+        <h4>Easy Planning</h4>
+        <p>Create your trip plan in minutes with our smart itinerary builder.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2995/2995113.png" alt="Budget Control" />
+        <h4>Budget Control</h4>
+        <p>Track expenses and manage travel costs effectively.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2098/2098414.png" alt="Explore" />
+        <h4>Explore Anywhere</h4>
+        <p>Find the best destinations tailored to your interests.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPLORE SECTION ===== -->
+  <section class="explore section" id="explore">
+    <h3>Top Destinations</h3>
+    <p>Check out trending travel spots curated for you.</p>
+    <div class="explore-grid">
+      <div class="destination-card"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Beach"/><h4>Bali, Indonesia</h4></div>
+      <div class="destination-card"><img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=800&q=60" alt="Paris"/><h4>Paris, France</h4></div>
+      <div class="destination-card"><img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&w=800&q=60" alt="Tokyo"/><h4>Tokyo, Japan</h4></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact">
+    &copy; 2025 TripPlanner. All rights reserved.
+  </footer>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
